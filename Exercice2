@@ -7,6 +7,9 @@ class Rectangle:
     def __init__(self, largeur: int, longueur: int):
         self.largeur = largeur
         self.longueur = longueur
+        
+    def calcul_aire(self):
+        longueur * largeur
 
     def __str__(self):
         return f'Rectangle: largeur={self.largeur}, longueur={self.longueur}'
