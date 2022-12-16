@@ -1,0 +1,15 @@
+# Créé par Bénito Ornel Yehouenou
+# Créé le 16 Décembre 2022
+# Exercice 4
+
+class Hero:
+
+    def __init__(self, name: str, level, strength: int, life: int, defense: int):
+
+        self.name = name
+        self.level = level
+        self.strength = strength
+        self.life = life
+        self.defense = defense
+
+print()
