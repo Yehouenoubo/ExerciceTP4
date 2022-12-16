@@ -1,0 +1,12 @@
+ Créé par Bénito Ornel Yehouenou
+# Créé le 16 Décembre 2022
+# Exercice 2
+
+class Rectangle:
+
+    def __init__(self, largeur: int, longueur: int):
+        self.largeur = largeur
+        self.longueur = longueur
+
+    def __str__(self):
+        return f'Rectangle: largeur={self.largeur}, longueur={self.longueur}'
