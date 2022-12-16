@@ -1,0 +1,17 @@
+# Créé par Bénito Ornel Yehouenou
+# Créé le 16 Décembre 2022
+# Exercice 3
+
+class Cercle:
+
+    def __init__(self, rayon: int):
+        self.rayon = rayon
+
+    def __str__(self):
+        return f'Circle: rayon={self.rayon}'
+
+    def calcul_aire(self):
+        return pi *self.rayon ** 2
+
+    def calcul_circonference(self):
+        return 2 * pi * self.rayon
