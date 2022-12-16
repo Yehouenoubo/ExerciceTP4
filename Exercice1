@@ -1,0 +1,19 @@
+# Créé par Bénito Ornel Yehouenou
+# Créé le 16 Décembre 2022
+# Exercice 1
+
+class StringFoo:
+
+    def __init__(self):
+        self.chaise = str
+
+    def set_string(self, parametre):
+        self.chaise = parametre
+
+    def print_string(self):
+        print(self.chaise)
+
+objet = StringFoo()
+
+objet.set_string('femme')
+objet.print_string()
